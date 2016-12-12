@@ -9,6 +9,14 @@
 @import "../../bower_components/css-hamburgers/_sass/hamburgers/hamburgers.scss";
 // endbower
 
+// Foundation Style Starts
+@include foundation-global-styles;
+
+// Flex classes and support. Comment out if you
+// don't want to use flex
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+
 // Foundation components. Comment out/remove what you don't need
 @include foundation-typography;
 @include foundation-forms;
